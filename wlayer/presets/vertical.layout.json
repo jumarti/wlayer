@@ -1,0 +1,35 @@
+{
+	"nuc.leo.rtsp" : [
+		"windowsize 300 170",
+		"windowmove 2000 0"
+ 
+	],
+	"nuc.high.rtsp" : [
+		"windowsize 300 170",
+		"windowmove 2000 200"
+ 
+	],
+	"nuc.bridge.rtsp" : [
+		"windowsize 300 170",
+		"windowmove 2000 400"
+ 
+	],		
+
+	"nuc.low.rtsp" : [
+		"windowsize 300 170",
+		"windowmove 2000 600"
+ 
+	],	
+
+	"luc.road.rtsp" : [
+		"windowsize 300 200",
+		"windowmove 2000 800"
+		
+	],
+	"netflix" : [
+		"windowsize 1373 1000",
+		"windowmove 0 0"
+
+	]	
+
+}

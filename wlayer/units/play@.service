@@ -1,0 +1,13 @@
+[Unit]
+Description=rtsp vlc play
+After=graphical.target
+Requires=graphical.target
+
+[Service]
+User=juanc
+Type=simple
+ExecStart=/usr/bin/vlc "`cat /home/juanc/warra/warra/presets/%i.rtsp`"
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/juanc/.Xauthority
+Restart=always
+TimeoutSec=30

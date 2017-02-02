@@ -1,0 +1,95 @@
+{
+	"netflix" : {
+		"service" : "chrome",
+		"process_lookup" : null,
+		"title_lookup" : "netflix",
+		"exec" : "/usr/bin/google-chrome --app=file:///home/juanc/netflix.html",
+		"controls" : {
+			"play" : {
+				"xdo" : ["key space"]
+				},
+			"stop" : {
+				"xdo" : ["key space"]
+				},
+			"full" : {
+				"xdo" : ["key F11"]
+				},
+			"not_full" : {
+				"xdo" : ["key F11"]
+				},
+			"close" : {
+				"xdo" : ["key Alt+F4"]
+				}		
+		}
+
+	},
+	"*.rtsp" : {
+		"title_lookup" : "VLC media player",
+		"controls" : {
+			"play" : {
+				"xdo" : ["key space"]
+				},
+			"stop" : {
+				"xdo" : ["key s"]
+				},
+			"full" : {
+				"xdo" : ["key f"]
+				},
+			"not_full" : {
+				"xdo" : ["key f"]
+				},
+			"close" : {
+				"service" : "stop"
+			}
+		}
+	},
+	"youtube" : {
+		"service" : "chrome",
+		"process_lookup" : null,
+		"title_lookup" : "youtube",
+		"exec" : "/usr/bin/google-chrome --app=file:///home/juanc/youtube.html",
+		"controls" : {
+			"play" : {
+				"xdo" : ["key k"]
+				},
+			"stop" : {
+				"xdo" : ["key k"]
+				},
+			"full" : {
+				"xdo" : ["key f"]
+				},
+			"not_full" : {
+				"xdo" : ["key f"]
+				},
+			"close" : {
+				"xdo" : ["key Alt+F4"]
+				}		
+		}
+
+	},	
+	"cnn" : {
+		"service" : "chrome",
+		"process_lookup" : null,
+		"title_lookup" : "cnn",
+		"exec" : "/usr/bin/google-chrome --app=file:///home/juanc/cnn.html",
+		"controls" : {
+			"play" : {
+				"xdo" : ["key space"]
+				},
+			"stop" : {
+				"xdo" : ["key space"]
+				},
+			"full" : {
+				"xdo" : ["key F11"]
+				},
+			"not_full" : {
+				"xdo" : ["key F11"]
+				},
+			"close" : {
+				"xdo" : ["key Alt+F4"]
+				}		
+		}
+
+	}
+
+}

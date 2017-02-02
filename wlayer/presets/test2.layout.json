@@ -1,0 +1,14 @@
+{
+	"nuc.low.rtsp" : [
+		"windowmove 1800 0",
+		"windowsize 100 100"
+	],
+	"luc.road.rtsp" : [
+		"windowmove 1800 100",
+		"windowsize 100 100"
+	],
+	"netflix" : [
+		"windowmove 0 0",
+		"windowsize 1800 800"
+	]
+}

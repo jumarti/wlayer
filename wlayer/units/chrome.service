@@ -1,0 +1,13 @@
+[Unit]
+Description=chrome
+After=graphical.target
+Requires=graphical.target
+
+[Service]
+User=juanc
+Type=simple
+ExecStart=/usr/bin/google-chrome --new-window
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/juanc/.Xauthority
+Restart=always
+TimeoutSec=30
